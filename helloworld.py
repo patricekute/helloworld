@@ -1,6 +1,7 @@
 def main():
-    name = input("What is your name?")
+    fname = input("What is your first name? ")
+    lname = input("What is your last name? ")
 
-    print("Hello " + name)
+    print("Hello " + fname + " " + lname + "!")
 
 main()
